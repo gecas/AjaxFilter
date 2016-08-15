@@ -182,9 +182,9 @@ label:hover:before {
             <div class="col-md-12" style="background:lightgrey; height:150px;">
             <h4 class="text-center">SUKNELES</h4>
             <ul class="categories">
-            @foreach($categories as $category)
+           {{--  @foreach($categories as $category)
 					<li><a href="/kategorija/{!! $category->slug !!}">{!! $category->title !!}</a></li>
-		    @endforeach	
+		    @endforeach	 --}}
             </ul>
             </div>
             <div class="col-md-12">
